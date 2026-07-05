@@ -1,6 +1,6 @@
 {
   "name": "evolink-krea-2-turbo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "EvoLink API examples and agent skill for Krea 2 Turbo Image Generation.",
   "readmeFilename": "README.md",
   "scripts": {
@@ -41,7 +41,7 @@
     "type": "git",
     "url": "git+https://github.com/Evolink-AI/krea-2-turbo-image-generate-api-skill.git"
   },
-  "homepage": "https://docs.evolink.ai/en/api-manual/image-series/krea/krea-2-turbo-image-generate",
+  "homepage": "https://evolink.ai",
   "engines": {
     "node": ">=16"
   }

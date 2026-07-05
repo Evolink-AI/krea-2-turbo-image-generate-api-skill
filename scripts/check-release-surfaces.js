@@ -68,6 +68,10 @@ if (!packageJson.readmeFilename || packageJson.readmeFilename !== 'README.md') {
   fail('package.json must force readmeFilename to README.md for npm rendering.');
 }
 
+if (packageJson.homepage !== 'https://evolink.ai') {
+  fail('package.json homepage must be https://evolink.ai for npm package metadata.');
+}
+
 if (!fs.existsSync(path.join(root, 'README.npm.md'))) {
   fail('README.npm.md must exist as a materialized npm-facing README source.');
 }
