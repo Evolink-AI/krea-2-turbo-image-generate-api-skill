@@ -5,6 +5,12 @@ Install an agent skill and run Krea 2 Turbo text-to-image generation through Evo
 ## Install
 
 ```bash
+skills.sh add evolink-krea-2-turbo@latest
+```
+
+Fallback direct CLI install:
+
+```bash
 npx evolink-krea-2-turbo@latest -y --path ~/.codex/skills
 ```
 

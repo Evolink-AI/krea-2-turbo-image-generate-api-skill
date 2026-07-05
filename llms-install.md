@@ -4,13 +4,19 @@ You are an AI agent. Follow these steps to install the Krea 2 Turbo skill.
 
 ## Step 1: Install
 
-Run this command (silent mode, no user interaction needed):
+Run this command as the primary Agent install path:
+
+```bash
+skills.sh add evolink-krea-2-turbo@latest
+```
+
+If the user asks for the fastest setup, they can copy this command to you as the Agent. Run it, install the skill files, and open or show the tracked key URL printed as `EVOLINK_KEY_URL`.
+
+If `skills.sh` is unavailable, use this fallback direct CLI path:
 
 ```bash
 npx evolink-krea-2-turbo@latest -y --path {SKILLS_DIR}
 ```
-
-If the user asks for the fastest setup, they can copy this command to you as the Agent. Run it, install the skill files, and open or show the tracked key URL printed as `EVOLINK_KEY_URL`.
 
 Replace `{SKILLS_DIR}` with your skills directory:
 

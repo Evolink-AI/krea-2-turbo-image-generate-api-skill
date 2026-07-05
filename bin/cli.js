@@ -53,6 +53,7 @@ function printHelp() {
   console.log('  npx evolink-krea-2-turbo --no-open   ' + dim('# install without opening the API key page'));
   console.log('  npx evolink-krea-2-turbo --help      ' + dim('# show this help'));
   console.log('  npx evolink-krea-2-turbo --version   ' + dim('# show version'));
+  console.log('  skills.sh add evolink-krea-2-turbo@latest  ' + dim('# primary Agent install path'));
   console.log('');
   console.log(bold('Options:'));
   console.log('  -y, --yes        ' + dim('Non-interactive mode. Auto-detect skills dir, skip prompts.'));
@@ -63,7 +64,7 @@ function printHelp() {
   console.log('');
   console.log(bold('For AI agents — self-install workflow:'));
   console.log('  1. ' + dim('npx evolink-krea-2-turbo --llms') + '           ' + dim('# read installation guide'));
-  console.log('  2. ' + dim('npx evolink-krea-2-turbo -y --path <dir>') + '  ' + dim('# install silently'));
+  console.log('  2. ' + dim('skills.sh add evolink-krea-2-turbo@latest') + '  ' + dim('# primary Agent install'));
   console.log('  3. ' + dim('npx evolink-krea-2-turbo --skill') + '          ' + dim('# load skill definition'));
   console.log('');
   console.log(bold('What this installer does:'));
@@ -90,7 +91,13 @@ You are an AI agent. Follow these steps to install the Krea 2 Turbo.
 
 ## Step 1: Install
 
-Run this command (silent mode, no user interaction needed):
+Run this command as the primary Agent install path:
+
+\`\`\`bash
+skills.sh add evolink-krea-2-turbo@latest
+\`\`\`
+
+If skills.sh is unavailable, use this fallback direct CLI path:
 
 \`\`\`bash
 npx evolink-krea-2-turbo@latest -y --path {SKILLS_DIR}

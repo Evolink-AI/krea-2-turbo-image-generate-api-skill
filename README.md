@@ -84,13 +84,13 @@ Krea 2 Turbo is a fast text-to-image model for high-fidelity cinematic visuals. 
 
 ## Installation
 
-### Quick Install (OpenClaw)
+### Agent Install (Recommended)
 
 ```bash
-openclaw skills add https://github.com/Evolink-AI/krea-2-turbo-image-generate-api-skill
+skills.sh add evolink-krea-2-turbo@latest
 ```
 
-### Install via npm (Recommended)
+### Direct CLI Fallback
 
 ```bash
 npx evolink-krea-2-turbo@latest -y --path ~/.codex/skills
@@ -120,9 +120,9 @@ node bin/cli.js -y --path ~/.codex/skills
 ```text
 Install the Krea 2 Turbo skill by running:
 
-npx evolink-krea-2-turbo@latest -y --path ~/.codex/skills
+skills.sh add evolink-krea-2-turbo@latest
 
-Then read ~/.codex/skills/krea-2-turbo-image/SKILL.md and run a dry run before calling the real API.
+Then read the installed krea-2-turbo-image/SKILL.md and run a dry run before calling the real API. If skills.sh is unavailable, use the fallback direct CLI path: npx evolink-krea-2-turbo@latest -y --path ~/.codex/skills.
 ```
 
 ---
@@ -278,11 +278,20 @@ See also:
 
 | Agent | Install method |
 |---|---|
-| Codex | `npx evolink-krea-2-turbo@latest -y --path ~/.codex/skills` |
-| Claude Code | `npx evolink-krea-2-turbo@latest -y --path ~/.claude/skills` |
-| OpenClaw | `openclaw skills add https://github.com/Evolink-AI/krea-2-turbo-image-generate-api-skill` |
-| OpenCode | `npx evolink-krea-2-turbo@latest -y --path ~/.opencode/skills` |
-| Cursor | `npx evolink-krea-2-turbo@latest -y --path ~/.cursor/skills` |
+| Codex | `skills.sh add evolink-krea-2-turbo@latest` |
+| Claude Code | `skills.sh add evolink-krea-2-turbo@latest` |
+| OpenClaw | `skills.sh add evolink-krea-2-turbo@latest` |
+| OpenCode | `skills.sh add evolink-krea-2-turbo@latest` |
+| Cursor | `skills.sh add evolink-krea-2-turbo@latest` |
+
+Fallback direct CLI install:
+
+```bash
+npx evolink-krea-2-turbo@latest -y --path ~/.codex/skills
+npx evolink-krea-2-turbo@latest -y --path ~/.claude/skills
+npx evolink-krea-2-turbo@latest -y --path ~/.opencode/skills
+npx evolink-krea-2-turbo@latest -y --path ~/.cursor/skills
+```
 
 ---
 

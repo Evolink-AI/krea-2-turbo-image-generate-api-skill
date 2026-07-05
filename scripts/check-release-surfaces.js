@@ -72,6 +72,13 @@ if (packageJson.homepage !== 'https://evolink.ai') {
   fail('package.json homepage must be https://evolink.ai for npm package metadata.');
 }
 
+for (const rel of ['README.md', 'README.npm.md', 'llms-install.md', 'bin/cli.js']) {
+  const text = read(rel);
+  if (!text.includes('skills.sh add evolink-krea-2-turbo@latest')) {
+    fail(`${rel} must present skills.sh add evolink-krea-2-turbo@latest as the primary Agent install command.`);
+  }
+}
+
 if (!fs.existsSync(path.join(root, 'README.npm.md'))) {
   fail('README.npm.md must exist as a materialized npm-facing README source.');
 }
