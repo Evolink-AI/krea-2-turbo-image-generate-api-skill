@@ -1,0 +1,48 @@
+{
+  "name": "evolink-krea-2-turbo",
+  "version": "1.0.0",
+  "description": "EvoLink API examples and agent skill for Krea 2 Turbo Image Generation.",
+  "readmeFilename": "README.md",
+  "scripts": {
+    "check:surfaces": "node scripts/check-release-surfaces.js",
+    "pack:staged": "bash scripts/publish-npm.sh --dry-run"
+  },
+  "bin": {
+    "evolink-krea-2-turbo": "./bin/cli.js"
+  },
+  "files": [
+    "bin/",
+    "SKILL.md",
+    "llms-install.md",
+    "_meta.json",
+    "docs/",
+    "scripts/",
+    "references/",
+    "examples/",
+    "assets/",
+    "LICENSE"
+  ],
+  "keywords": [
+    "krea-2-turbo",
+    "krea-image-generation",
+    "text-to-image",
+    "image-generation",
+    "evolink",
+    "api",
+    "openclaw",
+    "claude-code",
+    "opencode",
+    "evolink",
+    "ai-skill"
+  ],
+  "author": "EvoLink AI",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Evolink-AI/krea-2-turbo-image-generate-api-skill.git"
+  },
+  "homepage": "https://docs.evolink.ai/en/api-manual/image-series/krea/krea-2-turbo-image-generate",
+  "engines": {
+    "node": ">=16"
+  }
+}

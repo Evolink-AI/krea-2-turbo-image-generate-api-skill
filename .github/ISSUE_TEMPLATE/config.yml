@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: EvoLink Dashboard
+    url: https://evolink.ai/dashboard/keys
+    about: Manage API keys and credits.
+  - name: EvoLink Documentation
+    url: https://docs.evolink.ai/en/api-manual/image-series/krea/krea-2-turbo-image-generate
+    about: Official Krea 2 Turbo API documentation.

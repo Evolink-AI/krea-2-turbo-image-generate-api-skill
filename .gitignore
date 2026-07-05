@@ -1,0 +1,10 @@
+.DS_Store
+.env
+node_modules/
+.npm-stage/
+*.log
+__pycache__/
+*.pyc
+reports/
+.codex/model-repo-pipeline/runs/*
+!.codex/model-repo-pipeline/runs/.gitkeep
