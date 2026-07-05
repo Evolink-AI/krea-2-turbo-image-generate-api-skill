@@ -138,7 +138,7 @@ Open the EvoLink key page, create or select an API key, paste it back into your 
 The installer prints the same key handoff as machine-readable lines:
 
 ```text
-EVOLINK_KEY_URL=https://evolink.ai/dashboard/keys?utm_source=skill&utm_medium=install&utm_campaign=krea-2-turbo-image
+EVOLINK_KEY_URL=<installer-generated tracked key URL>
 AGENT_NEXT_ACTION=open_key_url_then_collect_key
 ENV_VAR_EXPORT=export EVOLINK_API_KEY=your_key_here
 ```

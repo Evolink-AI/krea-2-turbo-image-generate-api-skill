@@ -43,7 +43,7 @@ function assertUrlSet(rel, accepted) {
   }
 }
 
-assertUrlSet('README.md', [allowed.githubReadme, allowed.skillInstall]);
+assertUrlSet('README.md', [allowed.githubReadme]);
 assertUrlSet('README.npm.md', [allowed.npmPackage]);
 
 for (const rel of ['README.npm.md']) {
