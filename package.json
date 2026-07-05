@@ -8,7 +8,7 @@
     "pack:staged": "bash scripts/publish-npm.sh --dry-run"
   },
   "bin": {
-    "evolink-krea-2-turbo": "./bin/cli.js"
+    "evolink-krea-2-turbo": "bin/cli.js"
   },
   "files": [
     "bin/",
