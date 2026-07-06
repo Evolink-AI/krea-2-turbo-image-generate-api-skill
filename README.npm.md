@@ -77,7 +77,7 @@ Supported `quality` values: `1K`, `2K`.
 
 ## Links
 
-- Official docs: https://docs.evolink.ai/en/api-manual/image-series/krea/krea-2-turbo-image-generate
+- Official docs: https://docs.evolink.ai/en/api-manual/image-series/krea/krea-2-turbo-image-generate?utm_source=npm&utm_medium=package&utm_campaign=krea-2-turbo-image-generate&utm_content=docs_link
 - GitHub: https://github.com/Evolink-AI/krea-2-turbo-image-generate-api-skill
 
 ## License
