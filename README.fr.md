@@ -290,7 +290,7 @@ See also:
 
 ## Community
 
-- Docs: https://docs.evolink.ai/en/api-manual/image-series/krea/krea-2-turbo-image-generate
+- Docs: https://docs.evolink.ai/en/api-manual/image-series/krea/krea-2-turbo-image-generate?utm_source=github&utm_medium=readme&utm_campaign=krea-2-turbo-image-generate-api-skill
 - API keys: https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=readme&utm_campaign=krea-2-turbo-image
 - Issues: https://github.com/Evolink-AI/krea-2-turbo-image-generate-api-skill/issues
 - npm: https://www.npmjs.com/package/evolink-krea-2-turbo
